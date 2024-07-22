@@ -1,0 +1,240 @@
+html{
+  zoom:110%;
+}
+.topnav   
+{
+  overflow: hidden;
+  background-color: #333;
+  
+}
+.topnav a 
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover 
+{
+  background-color: #ddd;
+  color: black;
+}
+.topnav-right 
+{
+  float: right;
+}
+marquee 
+{
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.order
+{
+          display:none;
+}
+.profile
+{
+          display:none;
+}
+.changepass
+{
+          display:none;
+}
+.history
+{
+          display:none;
+}
+
+.status
+{
+          display:none;
+}
+.purchase
+{
+          display:none;
+}
+.profile legend
+        {
+          background-color: skyBlue;
+          padding: 0.75rem;
+          font-size: 1.3rem;
+          color: white;
+          text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+          transform: translateX(-1.1rem);
+          box-shadow: -1px 1px 1px rgba(0,0,0,0.8);
+        }
+.profile legend:after 
+        {
+          content: "";
+          height: 0;
+          width:0;
+          background-color: transparent;
+          border-top: 0.0rem solid transparent;
+          border-right:  0.35rem solid black;
+          border-bottom: 0.45rem solid transparent;
+          border-left: 0.0rem solid transparent;
+          position:absolute;
+          left:-0.075rem;
+          bottom: -0.45rem;
+        }        
+.profile fieldset 
+        {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          border: none;
+          font-size: larger;
+          font-weight: bolder;
+          box-shadow: 0px 0px 2px rgba(0,0,0,1);
+          background-color: rgb(240,240,240);
+        }
+
+.changepass fieldset {
+          background-color: #23463f;
+          height: 250px;
+          width: 250px;
+          margin: 0 auto;
+          text-align: center;
+          font-weight: bolder;
+      }
+.changepass legend {
+          background-color: #23463f;
+          color: white;
+          padding: 5px 10px;
+          border: solid black;
+      }
+.profilebut,.changepass button {
+        background-color: #c2fbd7;
+        border-radius: 100px;
+        box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+        color: green;
+        cursor: pointer;
+        display: inline-block;
+        font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+        padding: 7px 20px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 250ms;
+        border: 0;
+        font-size: 14px;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+      
+      .profilebut,.changepass button:hover {
+        box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+      }
+      table 
+      {
+        text-align: center;
+        text-orientation: sideways-right;
+        margin-top: 20px;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td  
+      {
+        border: 1px solid black;
+        padding: 8px;
+      }
+      tr:nth-child(even) 
+      {
+        background-color: #f2f2f2;
+      }
+      tr:hover 
+      {
+        background-color: #ddd;
+      }
+      table{
+        text-align:center;
+        text-orientation: sideways-right;
+        font-weight:bolder;
+        font-size:25px;
+    }
+    .but input
+    {
+      height: 21px;
+      width: 20px;
+    }
+    .but button {
+      background-color: #e1ecf4;
+      height: 25px;
+      width: 25px;
+    }
+    
+    .but button:hover
+     {
+      background-color: #b3d3ea;
+      color: #2c5777;
+    }
+    .button_slide {
+      color: black;
+      border: 2px solid rgb(216, 2, 134);
+      border-radius: 0px;
+      padding: 18px 36px;
+      display: inline-block;
+      font-family: "Lucida Console", Monaco, monospace;
+      font-size: 14px;
+      letter-spacing: 1px;
+      cursor: pointer;
+      box-shadow: inset 0 0 0 0 #D80286;
+      -webkit-transition: ease-out 0.4s;
+      -moz-transition: ease-out 0.4s;
+      transition: ease-out 0.4s;
+    }
+    
+    .slide_down:hover {
+      color: #FFF;
+      box-shadow: inset 0 100px 0 0 #D80286;
+    }
+    #buy1
+  {
+    display:none;
+  }
+  .purchase legend
+        {
+          background-color: skyBlue;
+          padding: 0.75rem;
+          font-size: 1.3rem;
+          color: white;
+          text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+          transform: translateX(-1.1rem);
+          box-shadow: -1px 1px 1px rgba(0,0,0,0.8);
+        }
+.purchase legend:after 
+        {
+          content: "";
+          height: 0;
+          width:0;
+          background-color: transparent;
+          border-top: 0.0rem solid transparent;
+          border-right:  0.35rem solid black;
+          border-bottom: 0.45rem solid transparent;
+          border-left: 0.0rem solid transparent;
+          position:absolute;
+          left:-0.075rem;
+          bottom: -0.45rem;
+        }        
+.purchase fieldset 
+        {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          border: none;
+          font-size: larger;
+          font-weight: bolder;
+          box-shadow: 0px 0px 2px rgba(0,0,0,1);
+          background-color: rgb(240,240,240);
+        }
+.purchase button{
+  height: 50px;
+  width : 200px;
+}
+#tadet
+{
+  font-size: larger;
+  font-weight: bolder;
+}
